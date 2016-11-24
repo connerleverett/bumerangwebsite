@@ -3478,6 +3478,7 @@
 				color: inherit;
 			}
 
+		
 		#banner .more {
 			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
 			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
@@ -3508,6 +3509,7 @@
 			width: 16em;
 			z-index: 1;
 		}
+		
 
 			#banner .more:after {
 				background-image: url("images/arrow.svg");
@@ -3548,16 +3550,21 @@
 			opacity: 0;
 		}
 
+		
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 7em 3em 5em 3em ;
+				padding: 7em 0em 0em 0em ;
 				height: auto;
 				min-height: 0;
 			}
 
 				#banner h2 {
-					font-size: 1.25em;
+					font-size: 1.9em;
+				}
+				
+				#banner h1{
+					font-size: 1.5em;
 				}
 
 				#banner br {
@@ -3569,6 +3576,7 @@
 				}
 
 		}
+		
 
 	body.is-loading #banner h2 {
 		-moz-transform: scale(0.95);
