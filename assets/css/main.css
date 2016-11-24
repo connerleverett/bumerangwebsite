@@ -3831,9 +3831,10 @@
 }
 
 #FAQtitles{
+	width:100%;
 	color: black
 }
 
 .FAQtitles{
-	width:50%;
+	width:100%;
 }
