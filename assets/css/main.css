@@ -3831,10 +3831,13 @@
 }
 
 #FAQtitles{
-	width:100%;
+	display: inline-block;
+	width:auto;
 	color: black
 }
 
 .FAQtitles{
+	height: auto;
+	display: inline-block;
 	width:100%;
 }
