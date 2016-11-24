@@ -1435,7 +1435,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 200px) {
 
 			body, input, select, textarea {
 				font-size: 11pt;
