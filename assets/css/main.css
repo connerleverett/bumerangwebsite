@@ -3429,8 +3429,11 @@
 		}
 		
 		#banner h1{
-			padding-top:-50px;
-			font-size:30px;
+			color: #fff;
+			letter-spacing: 0.225em;
+			line-height: 1em;
+			margin: 0 0 1em 0;
+			display: inline-block;
 		}
 		
 		#banner h3{
@@ -3856,7 +3859,6 @@
 
 #links{
 	height:100%;
-	
 	margin: 0 auto;
 	
 }
