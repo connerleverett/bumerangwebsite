@@ -3833,10 +3833,13 @@
 #FAQtitles{
 	display: inline-block;
 	width:auto;
-	color: black
+	height: auto;
+	color: black;
+	padding: 5px;
 }
 
 .FAQtitles{
+	padding:5px;
 	height: auto;
 	display: inline-block;
 	width:100%;
