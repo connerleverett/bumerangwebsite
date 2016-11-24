@@ -3830,17 +3830,11 @@
 	padding-bottom:0.5%;
 }
 
-#FAQtitles{
-	display: inline-block;
-	width:auto;
-	height: auto;
-	color: black;
-	padding: 5px;
-}
 
-.FAQtitles{
-	padding:5px;
-	height: auto;
+#FAQtitles{
+	color: #000;
+	letter-spacing: 0.225em;
+	line-height: 1em;
+	margin: 0 0 1em 0;
 	display: inline-block;
-	width:100%;
 }
