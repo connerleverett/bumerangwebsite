@@ -1477,15 +1477,18 @@
 		letter-spacing: 0.225em;
 		line-height: 1em;
 		margin: 0 0 1em 0;
+		display: inline-block;
 		/*text-transform: uppercase;*/
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
+			display: inline-block;
 		}
 
 	h1{
+		display: inline-block;
 		font-size: 1.75em;
 		line-height: 0em;		
 	}
@@ -3280,11 +3283,12 @@
 			line-height: inherit;
 			position: absolute;
 			top: 0;
+			display: inline-block;
 		}
 
 			#header h1 a {
 				border: 0;
-				display: block;
+				display: inline-block;
 				height: inherit;
 				line-height: inherit;
 			}
@@ -3292,6 +3296,7 @@
 				@media screen and (max-width: 736px) {
 
 					#header h1 a {
+						display: inline-block;
 						font-size: 0.8em;
 					}
 
@@ -3806,10 +3811,10 @@
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/bigger_bumerang.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/bigger_bumerang.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/bigger_bumerang.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/bigger_bumerang.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
