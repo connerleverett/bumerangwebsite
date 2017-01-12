@@ -1,52 +1,9 @@
-Spectral by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Bümerang (pronounced Boomerang) is a student driven project to help you when you're in a pinch. It is a real-time, mobile sharing application that allows users to easily make requests to borrow things like laptop or phone chargers.
 
+So, how does it work? There are two pages, 'I need it' and 'I have it'. 'I need it' are items that people near you are currently looking for, 'I have it' are items that people are generously offering to lend out!
 
-A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
-and an assortment of pre-styled elements. So, pretty much what you were expecting
--- except, of course, for how it's put together, specifically:
+How do I request or offer something? Simply click the plus button on the main screen and you will be prompted to enter the title of the request, a short description of the item, how far you are willing to travel to get it, and how long you need it for. The request will then appear in the 'I need it' page for others to see.
 
-- It's built on Skel 3*, a leaner, more modular rewrite of my responsive framework.
+I'm scared someone will steal my things Every request is attached to the users Facebook page and phone number. Only when both parties agree on an interaction are phone numbers exchanged.
 
-  (* = still in development as of this writing)
-
-- It uses flexbox*, which eliminates all kinds of terrible hacks and clunky layout
-  stopgaps (like CSS grid systems).
-
-  (* = not supported on IE8/9, but non-flexbox fallbacks are included)
-
-- It uses Sass* a lot more intelligently, thanks in part to several new mixins
-  and functions I've been working on (as well as a few by @HugoGiraudel).
-
-  (* = still entirely optional if you prefer vanilla CSS :)
-
-- A ton of other stuff.
-
-In short, Spectral's the culmination of several new things I'm working on/trying out,
-so please, let me know what you think :)
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		background-size polyfill (github.com/louisremi)
-		Misc. Sass functions (@HugoGiraudel)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
+This is the repo for bumerangapp.com which was developed using Spectral by HTML5 UP
